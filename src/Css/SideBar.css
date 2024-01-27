@@ -1,0 +1,127 @@
+.background{
+    /* background: linear-gradient(0deg, #EBECF2, #EBECF2),
+    linear-gradient(0deg, #F7F8FA, #F7F8FA); */
+    background-color: #F7F8FA;
+    padding: 10px 0;
+    z-index: 3;
+}
+.sideBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    border-right: 1px solid rgba(235, 236, 242, 1);
+    z-index: 100;
+    transition: all 0.5s ease;
+}
+.sideBar.Open{
+    width: 200px;
+    transition: all 0.5s ease;
+}
+img.Open{
+    transform: rotate(180deg);
+    transition: all 0.5s ease;
+}
+img.Close{
+    transform: rotate(0deg);
+    transition: all 0.5s ease;
+}
+.Open label{
+    transition: all 0.5s ease;
+    display: inline-block;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+label{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 12px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.Open .IconsContainer span img,
+.Open .bottomIcons span img{
+    max-width: 32px;
+    margin: 5px 10px 5px 14px;
+}
+.Open .IconsContainer span.active img{
+    margin: .8px 10px 5px 14px;
+}
+.Open .logoContainer{
+    display: block;
+    margin: 0 0 0 14px;
+}
+
+
+
+.IconsContainer span img,
+.bottomIcons span img{
+    max-width: 32px;
+    margin: 5px auto;
+}
+.Logo{
+    max-width: 34px;
+    margin: 10px auto;
+}
+.IconsContainer span,
+.bottomIcons span,
+.logoContainer{
+    display: flex;
+}
+
+.modeSwitch{
+    background: rgba(255, 255, 255, 1);
+    border-radius: 100px;
+    margin: 0 12px;
+}
+.modeSwitch img{
+    max-width: 28px !important;
+}
+.Open .modeSwitch{
+    max-width: 34px;
+    margin: 0 0 0 13px;
+}
+.Open .IconsContainer .modeSwitch span img {
+    margin: 5px 3px;
+}
+.relative{
+    position: relative;
+    height: 100%;
+}
+.bottomIcons{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.IconsContainer span:hover{
+    cursor: pointer;
+}
+.IconsContainer span:hover samp,
+.IconsContainer span.active samp{
+    display: inline-block;
+}
+.IconsContainer samp{
+    background: rgba(13, 6, 45, 1);
+    border-radius: 20px 0 0 20px;
+    width: 3.6px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 23px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+

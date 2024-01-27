@@ -1,0 +1,138 @@
+.sticky_top{
+    position: sticky;
+    top: 0;
+    background-color: var(--navbar) ;
+    display: flex;
+    margin-left: 59px;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid var(--border);
+    z-index: 2;
+}
+.pageAnnotation{
+    font-weight: 600;
+    font-size: 18px;
+}
+.searchBar{
+    border: 1px solid rgba(218, 221, 221, 1);
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+    linear-gradient(0deg, #DADDDD, #DADDDD);
+    border-radius: 24px;
+    padding: 2px 10px;
+    display: flex;
+    max-width: 250px;
+    width: 100%;
+    height: 32px;
+}
+.searchBar input{
+    border: none;
+    color: rgba(163, 163, 163, 1);
+    padding-left: 7px;
+
+}
+.searchBar input,img{
+    margin: auto 0;
+}
+.sticky_top .searchBarTop,
+.sticky_top .pageAnnotation{
+    margin: auto 0;
+}
+.searchBarTop{
+    max-width: 800px;
+    width: 100%;
+}
+.calender{
+    font-size: 14px;
+    font-weight: 500;
+}
+.searchBar,.calender,
+.bellContainer,.userContainer{
+    margin: auto 0 auto 30px; 
+}
+
+.bellContainer div{
+    border-radius: 100%;
+    height: 38px;
+    width: 38px;
+    border: 1px solid var(--border);
+    display: flex;
+}
+.bellContainer div img{
+    margin: auto;
+    max-width: 17px;
+}
+.ProfileImg img{
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    margin: auto;
+}
+.userContainer{
+    border: 1px solid var(--border);
+    border-radius: 28px;
+    padding: 5px;
+    height: 38px;
+    display: grid;
+    grid-template-columns: 2fr 5fr 1fr;
+    min-width: 195px;
+    cursor: pointer;
+}
+.Name{
+    font-size: 14px;
+    font-weight: 500;
+}
+.email{
+    font-size: 12px;
+    font-weight: 400;
+}
+.breadCrumbs{
+    display: none;
+}
+.bellContainer div:hover {
+    background: var(--barBg);
+    cursor: pointer;
+}
+
+.rotateDropDown{
+    transform: rotate(0deg);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.userContainer:hover .rotateDropDown{
+    transform: rotate(180deg);
+    transition: all 0.5s ease;
+}
+
+.breadCrumbsMenu{
+    background: var(--barBgHover);
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    transition: all 0.5s ease;
+    z-index: 100;
+    padding: 20px;
+    overflow-y: auto;
+    transition: all 0.5s ease;
+    z-index: 10000;
+}
+.cancelButton{
+    padding-left: 20px;
+}
+
+.breadCrumbsMenu.display{
+    right: 0;
+    transition: all 0.5s ease;
+
+}
+.breadCrumbsMenu span{
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px;
+}
+
+.breadCrumbsMenu span:hover{
+    color: #fff;
+}
+

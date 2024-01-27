@@ -1,0 +1,147 @@
+@media (min-width:1440px) {
+    .rightBarContainer{
+        position: absolute;
+    }
+    .sideBar{
+        position: absolute;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* RightBar */
+    .rightBarContainer{
+        width: 400px;
+    }
+    .greenArrow .font_12{
+        font-size: 8px;
+    }
+    /* Home */
+    .home{
+        margin: 0 420px 0 60px;
+    }
+    /* Others */
+    .ordersContainer .centerX span,
+    .ordersContainer .muted{
+        font-size: 14px !important;
+    }
+    /* BarChart */
+    .LongBarContainer{
+        gap: 12px !important;
+    }
+    
+}
+@media (max-width: 950px) {
+    /* Navbar */
+    .breadCrumbs{
+        display: flex;
+    }
+    .breadCrumbs {
+        margin: auto 0 auto auto;
+    }
+    .calender{
+        display: none !important;
+    }
+}
+@media (max-width: 870px) {
+    /* RightBar */
+    .chartSummaryRightBar{
+        display: none;
+    }
+    .rightBarContainer{
+        width: initial;
+        position: relative;
+        padding: 0 20px 20px 80px;
+    }
+    .greenArrow .font_12{
+        font-size: 12px;
+    }
+    /* Home */
+    .chartSummaryHome{
+        display: block;
+    }
+    .home{
+        margin: 0 0 0 60px;
+    }
+    .barChartContainer{
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 840px) {
+    /* Navbar */
+    .bellContainer{
+        display: none;
+    }
+    .bellContainer,.userContainer{
+        display: none;
+    }
+    .searchBar{
+        margin-left: auto;
+    }
+    
+}
+@media (max-width: 540px) {
+    /* Navbar */
+    .sideBar,.pageAnnotation{
+        display: none;
+    }
+    .sticky_top{
+        margin-left: 0;
+    }
+    .searchBar{
+        margin-left: initial;
+    }
+    /* Home */
+    .home{
+        margin: 0;
+    }
+    /* RightBar */
+    .rightBarContainer{
+        padding: 0 20px 20px 20px;
+    }
+    /* barChart */
+    .barLabel{
+        font-size: 11px !important;
+    }
+    .LongBarContainer{
+        gap: 7px !important;
+    }
+}
+@media (max-width: 425px) {
+    /* Navbar */
+    .sticky_top{
+        padding: 5px 15px;
+    }
+    .searchBar{
+        height: 27px;
+        max-width: 220px;
+        overflow-x: hidden;
+    }
+    /* RightBar */
+    .rightBars{
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 15px 0;
+    }
+    .rightBarContainer{
+        padding: 0 15px 15px 15px;
+    }
+    .sales{
+        font-size: 15px;
+    }
+    .pb_25 .flexBetween span{
+        font-size: 15px;
+    }
+    .barBg{
+        height: 6.5px;
+    }
+    /* Home */
+    .home{
+        padding: 15px;
+    }
+    .sor{
+        display: none;
+    }
+    .barLabel{
+        transform: rotate(300deg);
+    }
+}

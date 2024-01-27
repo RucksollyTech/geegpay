@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Plus_Jakarta_Sans';
+  src: url('./Fonts/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+}
+body {
+  margin: 0;
+  font-family: "Plus_Jakarta_Sans",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--backgroung);
+  max-width: 1440px;
+  margin: auto;
+  width: 100%;
+  position: relative !important;
+}
+
+:root {
+  --green: rgba(52, 202, 165, 1);
+  --muted: rgba(156, 164, 171, 1);
+  --red: rgba(237, 84, 78, 1);
+  --muted2 : rgba(96, 96, 96, 1);
+  --bar: rgba(234, 234, 234, 1);
+  --barVal : rgba(82, 82, 82, 1);
+  --barBg: rgba(52, 202, 165, 0.1);
+  --navbar :#fafafa;
+  --border:rgba(229, 234, 239, 1);
+  --backgroung: rgba(250, 250, 250, 1);
+  --barBgHover: linear-gradient(180deg, #34CAA5 0%, rgba(52, 202, 165, 0) 100%);
+}
+
+[data-theme="dark"]{
+  --backgroung: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+img{
+  max-width: 100%;
+}
+input{
+  outline: none;
+}
+.flex{
+  display: flex;
+}
+.font_14{
+  font-size: 14px;
+}
+.font_12{
+  font-size: 12px;
+}
+.font_18{
+  font-size: 18px;
+}
+.d_block{
+  display: block;
+}
+.pr_05{
+  padding-right: 5px;
+}
+.pl_08{
+  padding-left: 8px;
+}
+.pb_2{
+  padding-bottom: 20px;
+}
+.pb_25{
+  padding-bottom: 25px;
+}
+.center{
+  display: flex;
+}
+.center *{
+  margin: auto;
+}
+.centerX{
+  display: flex;
+}
+.centerX *{
+  margin: auto 0;
+}
+.bold4{
+  font-weight: 400 !important;
+}
+.bold6{
+  font-weight: 600;
+}
+.pointer{
+  cursor: pointer;
+}
+.green{
+  color: var(--green) ;
+}
+.muted {
+  color: var(--muted);
+}
+.red{
+  color: var(--red);
+}
+.muted2{
+  color: var(--muted2);
+}
+.flexBetween{
+  display: flex;
+  justify-content: space-between;
+}
+.relative{
+  position: relative;
+}

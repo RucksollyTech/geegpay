@@ -1,0 +1,44 @@
+.home{
+    margin: 0 480px 0 60px;
+    padding: 20px;
+}
+.barChartContainer{
+    border-radius: 14px;
+    border: 1px solid rgba(237, 242, 247, 1);
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.salesHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.sales{
+    font-size: 16.6px;
+}
+.filter_fontsize{
+    font-size: 15px;
+    font-weight: 500;
+}
+.weekly{
+    border-radius: 20px;
+    border: 1px solid rgba(225, 223, 223, 1);
+    padding: 5px 10px 5px 13px;
+    font-size: 13px;
+    margin-left: 10px;
+}  
+.weekly img{
+    margin-left: 10px;
+}
+.chartSummaryHome{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
