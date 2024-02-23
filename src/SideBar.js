@@ -57,7 +57,7 @@ const SideBar = () => {
                     </span>
                     <span className='relative'>
                         <samp></samp>
-                        <img src="/Icons/icon8.svg" alt="Settings" data-tooltip-delay-show={500} data-tooltip-id="my-tooltip" data-tooltip-content="Settings"/>
+                        <img src="/Icons/Icon8.svg" alt="Settings" data-tooltip-delay-show={500} data-tooltip-id="my-tooltip" data-tooltip-content="Settings"/>
                         <label>Settings</label>
                     </span>
                     <span className='relative'>

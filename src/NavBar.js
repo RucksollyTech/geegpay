@@ -7,6 +7,7 @@ const NavBar = () => {
         <div className='pageAnnotation'>
             Dashboard
         </div>
+        
         <div className='flex searchBarTop'>
             <div className="searchBar">
                 <img src="/Icons/search.svg" alt="Search ICon" />
