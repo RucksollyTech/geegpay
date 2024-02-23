@@ -9,7 +9,7 @@ const NavBar = () => {
         </div>
         <div className='flex searchBarTop'>
             <div className="searchBar">
-                <img src="/icons/search.svg" alt="Search ICon" />
+                <img src="/Icons/search.svg" alt="Search ICon" />
                 <input type="text" placeholder='Search...' />
             </div>
             <div className="calender flex">
